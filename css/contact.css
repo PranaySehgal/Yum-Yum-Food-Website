@@ -1,0 +1,15 @@
+.contact>.method{
+    outline:0.1rem solid grey;
+    margin:1rem;
+    padding:1rem;
+}
+[data-contact]{
+    width:10rem;
+    height:10rem;
+}
+[data-info]{
+    font-weight: 300;
+    color:black;
+    text-decoration: none;
+    margin-block: 0.5rem;
+}

@@ -1,0 +1,86 @@
+.__dishes > .dish > .logo {
+    width: 20rem;
+    height: 20rem;
+  }
+  .__dishes > .dish {
+    padding: 1rem;
+    outline: 0.1rem solid black;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+    margin-block:1rem;
+  }
+  .__dishes > .dish > .options {
+    position: relative;
+    justify-content: space-between;
+    margin-block: 1rem;
+
+  }
+  .__dishes > .dish > .options > div > button {
+    padding: 0.5rem;
+    background: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .__dishes > .dish > .options > .shop {
+    position: absolute;
+    left: 220%;
+  }
+  .__dishes > .dish > .options > .eye {
+    position: absolute;
+    left: -100%;
+    transition: left 200ms ease-in-out;
+  }
+  .__dishes > .dish > .options > div > button:hover {
+    background: black;
+    color: white;
+    transition: all 200ms ease-in-out;
+    border: none;
+  }
+  .__dishes > .dish:hover > .options > .shop {
+    left: 88%;
+    /* position: static; */
+  }
+  .__dishes {
+    margin: 10rem;
+  }
+  .__dishes > .dish:hover > .options > .eye {
+    transition: left 200ms ease-in-out;
+    left: 4%;
+    /* position: static; */
+  }
+  .counter {
+    width: 2rem;
+    height: 1rem;
+    padding: 0.5rem;
+    color: grey;
+  }
+  .view{
+      background: #fed330;
+      color:#000;
+      border:none;
+      cursor:pointer;
+      padding:.75rem 1rem;
+      transition:letter-spacing 200ms ease-in;
+      margin: 1rem;
+  }
+  .view:hover{
+      
+      letter-spacing: .1rem;
+  }
+
+  @media screen and (max-width:672px) {
+    .__dishes > .dish > .logo {
+      width: 10rem;
+      height: 10rem;
+    }
+    .__dishes > .dish  {
+      display:grid;
+      margin-inline: 1rem;
+    }
+    .dish>.price{
+      width: 100%;
+    }
+    .__dishes{
+      margin: 1rem;
+    }
+  }

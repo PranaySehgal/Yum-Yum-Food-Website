@@ -1,0 +1,53 @@
+.contact>img{
+    width:30rem;
+    height:30rem;
+}
+.contact{
+    margin: 5rem;   
+}
+.contact>form>center>*:not(button):not(h1){
+    display:block;
+    border:.2rem solid black;
+    width:80%;
+    margin: 1rem;
+    padding:1rem;
+}
+.contact>form>center>button{
+    padding:1rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: letter-spacing 300ms ease-in-out;
+    background:#fed330;
+}
+.contact>form>center>h1{
+    margin: 2rem;
+}
+.contact>form>center>button:hover{
+    letter-spacing: .1rem;
+}
+.contact>form{
+    width:100%;
+    margin: 1rem;
+    outline:.2rem solid black;
+}
+@media screen and (max-width:992px){
+    .contact{
+        margin-inline: 1rem;
+    }
+}
+@media screen and (max-width:900px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact>form{
+        margin-inline: 0;
+    }
+    .contact>img{
+        width:100%;
+    }
+    .contact.__grid>.method{
+        width:100%;
+        margin-inline:0;
+    }
+}

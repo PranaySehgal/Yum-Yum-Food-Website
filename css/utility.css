@@ -1,0 +1,35 @@
+@import './all.min.css';
+
+.__flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+.__secondary_heading {
+  font-size: 1.4rem;
+  margin-block: 0.5rem;
+}
+.__emphasised_text {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-inline:1rem;
+  margin-block:1rem;
+}
+.__main_heading {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  margin-block: 5rem 2rem;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+button{
+  all:unset;
+}
