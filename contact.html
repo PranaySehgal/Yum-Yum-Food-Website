@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/contactPage.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+  <div class="loader">
+    <img src="./images/loader.gif" alt="">
+  </div>
+    <div class="container">
+
+    <!-- Nav Starts -->
+    <nav class="__head">
+      <div class="head__logo">
+        <h1>yum-yum 🤤</h1>
+      </div>
+      <i class="fas fa-bars show" onclick="toggle(this)"></i>
+      <div class="head__links">
+        <ul data-list>
+          <li data-links><a href="index.html"> home </a></li>
+          <li data-links><a href="about.html"> about </a></li>
+          <li data-links><a href="menu.html"> menu </a></li>
+          <li data-links><a href="orders.html"> orders </a></li>
+          <li data-links><a href="contact.html"> contact </a></li>
+        </ul>
+      </div>
+      <div class="head__items">(3)</div>
+    </nav>
+    <!-- Nav Ends -->
+    <!-- Header Starts -->
+    <header class="__flex" style="flex-direction: column">
+        <h1>Contact Us</h1>
+        <h1 class="__main_heading" style="margin-bottom: 0; margin-top: 1rem">
+          <a href="/"><font color="#fed330">home </font></a>
+          <font color="grey"> / contact </font>
+        </h1>
+      </header>
+    <!-- Header Ends -->
+    <!-- Body Starts -->
+    <div class="contact __grid">
+        <img src="./images/contact-img.svg" alt="">
+        <form>
+           <center>
+               <h1 class="__emphasised_text">Tell Us Something!</h1>
+               <input placeholder="Enter Your Name" class="__emphasised_text" type="text">
+               <input placeholder="Enter Your Number" class="__emphasised_text" type="text">
+               <input placeholder="Enter Your Email" class="__emphasised_text" type="text">
+               <textarea placeholder="Enter Your Message" class="__emphasised_text" cols="23" rows=4></textarea>
+               <button>Send Message</button>
+            </center>
+        </form>
+    </div>
+    <!-- Body Ends -->
+    <!-- Contact Starts -->
+    <div class="contact __grid">
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/email-icon.png" />
+          <h3 class="__secondary_heading">Our Email</h3>
+          <a data-info href="mailto:pranay001.sehgal@gmail.com"
+            >pranay001.sehgal@gmail.com</a
+          >
+          <a data-info href="mailto:pranaysehgal.2008@gmail.com"
+            >pranaysehgal.2008@gmail.com</a
+          >
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/clock-icon.png" />
+          <h3 class="__secondary_heading">Opening Hours</h3>
+          <div data-info>00:07am to 00:10pm</div>
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/map-icon.png" />
+          <h3 class="__secondary_heading">Our Address</h3>
+          <a data-info href="https://www.google.com/maps"
+            >Mumbai, India - 400104</a
+          >
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/phone-icon.png" />
+          <h3 class="__secondary_heading">Our Phone</h3>
+          <a data-info href="tel:7827271750">+917827271750</a>
+          <a data-info href="tel:9810745697">+919810745697</a>
+        </div>
+      </div>
+    <!-- Contact Ends -->
+    <!-- Footer Starts -->
+    <footer class="__flex">
+        <div>
+          &copy; Copyright @ 2022 By
+          <font color="#fed330"> Pranay Sehgal </font> | All Rights Reserved!
+        </div>
+      </footer>
+    <!-- Footer Ends -->
+</div>
+
+</body>
+</html>

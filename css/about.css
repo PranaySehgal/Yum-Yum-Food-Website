@@ -1,0 +1,62 @@
+.about {
+  display: grid;
+  align-items: center;
+}
+@media screen and (max-width: 761px) {
+  .__about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  [data-about-image] {
+    width: 30rem;
+    height: 30rem;
+  }
+}
+#menu {
+  background: #fed330;
+  padding: 1rem;
+  cursor: pointer;
+  transition: letter-spacing 200ms ease-in-out;
+}
+#menu:hover {
+  letter-spacing: 0.1rem;
+}
+.steps > .step > .img > img {
+  width: 10rem;
+  height: 10rem;
+}
+.step > .info, .step {
+  display: grid;
+  place-items: center;
+}
+.step {
+  outline: 0.1rem solid grey;
+  padding: 1rem;
+  margin: 1rem;
+}
+.review>img{
+    width:5rem;
+    height:5rem;
+    border-radius: 100%;
+}
+.review{
+    display: grid;
+    place-items: center;
+    outline:.2rem solid black;
+    padding: 1rem;
+    margin: 2rem 1rem;
+}
+@media screen and (max-width:492px){
+  [data-about-image] {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.stars{
+  display: flex;
+  gap:.5rem;
+}
+body{
+  overflow-x: hidden;
+}

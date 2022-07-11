@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yum Yum</title>
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="loader">
+      <img src="./images/loader.gif" alt="" />
+    </div>
+    <div class="container">
+      <!-- Nav Starts -->
+
+      <nav class="__head">
+        <div class="head__logo">
+          <h1>yum-yum 🤤</h1>
+        </div>
+        <i class="fas fa-bars show" onclick="toggle(this)"></i>
+        <div class="head__links">
+          <ul data-list>
+            <li data-links><a href="index.html"> home </a></li>
+            <li data-links><a href="about.html"> about </a></li>
+            <li data-links><a href="menu.html"> menu </a></li>
+            <li data-links><a href="orders.html"> orders </a></li>
+            <li data-links><a href="contact.html"> contact </a></li>
+          </ul>
+        </div>
+        <div class="head__items">(3)</div>
+      </nav>
+
+      <!-- Nav Ends -->
+      <!-- Body Starts -->
+      <div class="menu__item">
+        <div class="info">
+          <h3>order online</h3>
+          <h1>Delicious Pizza</h1>
+          <button><a href="menu.html">See Menus</a></button>
+        </div>
+        <div class="img">
+          <img src="./images/home-img-1.png" alt="" class="menu__img" />
+        </div>
+      </div>
+      <div class="menu__item">
+        <div class="info">
+          <h3>order online</h3>
+          <h1>Double Hamburger</h1>
+          <button><a href="menu.html">See Menus</a></button>
+        </div>
+        <div class="img">
+          <img src="./images/home-img-2.png" alt="" class="menu__img" />
+        </div>
+      </div>
+      <div class="menu__item">
+        <div class="info">
+          <h3>order online</h3>
+          <h1>Roasted Chicken</h1>
+          <button><a href="menu.html">See Menus</a></button>
+        </div>
+        <div class="img">
+          <img src="./images/home-img-3.png" alt="" class="menu__img" />
+        </div>
+      </div>
+
+      <div class="__food">
+        <h1 class="__main_heading">Food Catagory</h1>
+        <div class="__flex">
+          <div class="item">
+            <img src="./images/cat-1.png" alt="" class="__logo" />
+            <div class="text">Fast Food</div>
+          </div>
+          <div class="item">
+            <img src="./images/cat-2.png" alt="" class="__logo" />
+            <div class="text">Main Dishes</div>
+          </div>
+          <div class="item">
+            <img src="./images/cat-3.png" alt="" class="__logo" />
+            <div class="text">Drinks</div>
+          </div>
+          <div class="item">
+            <img src="./images/cat-4.png" alt="" class="__logo" />
+            <div class="text">Deserts</div>
+          </div>
+        </div>
+      </div>
+      <div class="__dish">
+        <h1 class="__main_heading">Latest Dishes</h1>
+        <div class="__dishes __flex">
+          <div class="dish">
+            <div class="options __flex">
+              <div class="shop">
+                <button class="fas fa-shopping-cart"></button>
+              </div>
+              <div class="eye"><button class="fas fa-eye"></button></div>
+            </div>
+            <img src="./uploaded_img/pizza-1.png" class="logo" alt="" />
+            <div>Fast Food</div>
+            <h3 class="__secondary_heading">delicious pizza 01</h3>
+            <div class="price">
+              <div class="price __flex">
+                <div class="price">
+                  <font color="grey">$</font> <big> 3</big
+                  ><font color="grey">/-</font>
+                </div>
+                <input
+                  class="counter"
+                  value="1"
+                  min="1"
+                  max="10"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="options __flex">
+              <div class="shop">
+                <button class="fas fa-shopping-cart"></button>
+              </div>
+              <div class="eye"><button class="fas fa-eye"></button></div>
+            </div>
+            <img src="./uploaded_img/dish-1.png" class="logo" alt="" />
+            <div>Fast Food</div>
+            <h3 class="__secondary_heading">Main Dish 01</h3>
+            <div class="price">
+              <div class="price __flex">
+                <div class="price">
+                  <font color="grey">$</font> <big> 3</big
+                  ><font color="grey">/-</font>
+                </div>
+                <input
+                  class="counter"
+                  value="1"
+                  min="1"
+                  max="10"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="options __flex">
+              <div class="shop">
+                <button class="fas fa-shopping-cart"></button>
+              </div>
+              <div class="eye"><button class="fas fa-eye"></button></div>
+            </div>
+            <img src="./uploaded_img/burger-1.png" class="logo" alt="" />
+            <div>Fast Food</div>
+            <h3 class="__secondary_heading">chezzy hamburger 01</h3>
+            <div class="price">
+              <div class="price __flex">
+                <div class="price">
+                  <font color="grey">$</font> <big> 3</big
+                  ><font color="grey">/-</font>
+                </div>
+                <input
+                  class="counter"
+                  value="1"
+                  min="1"
+                  max="10"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="dish">
+            <div class="options __flex">
+              <div class="shop">
+                <button class="fas fa-shopping-cart"></button>
+              </div>
+              <div class="eye"><button class="fas fa-eye"></button></div>
+            </div>
+            <img src="./uploaded_img/dessert-1.png" class="logo" alt="" />
+            <div>Fast Food</div>
+            <h3 class="__secondary_heading">Delicious Dessert 01</h3>
+            <div class="price">
+              <div class="price __flex">
+                <div class="price">
+                  <font color="grey">$</font> <big> 3</big
+                  ><font color="grey">/-</font>
+                </div>
+                <input
+                  class="counter"
+                  value="1"
+                  min="1"
+                  max="10"
+                  type="number"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <center>
+          <button class="view">View More</button>
+        </center>
+      </div>
+      <div class="contact __grid">
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/email-icon.png" />
+          <h3 class="__secondary_heading">Our Email</h3>
+          <a data-info href="mailto:pranay001.sehgal@gmail.com"
+            >pranay001.sehgal@gmail.com</a
+          >
+          <a data-info href="mailto:pranaysehgal.2008@gmail.com"
+            >pranaysehgal.2008@gmail.com</a
+          >
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/clock-icon.png" />
+          <h3 class="__secondary_heading">Opening Hours</h3>
+          <div data-info>00:07am to 00:10pm</div>
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/map-icon.png" />
+          <h3 class="__secondary_heading">Our Address</h3>
+          <a data-info href="https://www.google.com/maps"
+            >Mumbai, India - 400104</a
+          >
+        </div>
+        <div class="method __flex" style="flex-direction: column">
+          <img data-contact src="./images/phone-icon.png" />
+          <h3 class="__secondary_heading">Our Phone</h3>
+          <a data-info href="tel:7827271750">+917827271750</a>
+          <a data-info href="tel:9810745697">+919810745697</a>
+        </div>
+      </div>
+      <!-- Body Ends -->
+      <!-- Footer Starts -->
+      <footer class="__flex">
+        <div>
+          &copy; Copyright @ 2022 By
+          <font color="#fed330"> Pranay Sehgal </font> | All Rights Reserved!
+        </div>
+      </footer>
+      <!-- Footer Ends -->
+    </div>
+  </body>
+</html>
