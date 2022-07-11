@@ -8,13 +8,17 @@ setTimeout(() => {
 }, 2000);
 function toggle(el) {
   if (el.classList.contains("show")) {
-    document.querySelector(".head__links").style.display = "block";
+    document.querySelector(".__head").style.height = "15rem";
+    document.querySelector(".head__links").style.display = "flex";
     document.querySelector(".head__links").style.margin = "1rem auto";
     document.querySelector("[data-list]").style.display = "block";
-    document.querySelector("[data-links]").style.margin = "auto";
-    el.classList.remove("show")
+    [...document.querySelectorAll("[data-links]")].forEach((e)=>{
+	e.style.margin = "auto";
+	})
+    	el.classList.remove("show")
 }
 else{
+document.querySelector(".__head").style.height = "4rem";
     document.querySelector(".head__links").style.display = "none";
     document.querySelector("[data-list]").style.display = "flex";
     el.classList.add("show")
